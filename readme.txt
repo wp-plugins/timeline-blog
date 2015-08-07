@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Timeline blog is a way of displaying a list of blogs in chronological, colorfull and more attractive order.
+Timeline blog is a way of displaying a list of blogs in a chronological, colorfull and more attractive order.
 == Description ==
 
 Timeline blog is a way of displaying a list of blogs in a chronological, colorfull and attractive order. It is typically a graphic design showing a long bar labelled with date, author avatar and comments count.
