@@ -1,7 +1,7 @@
-<?php
+﻿<?php
 /**
  * Plugin Name: Timeline Blog
- * Plugin URI: https://wordpress.org/plugins/timeline-blog/
+ * Plugin URI: http://offshorent.com/blog/extensions/timeline-blog
  * Description: Create a timeline look and feel for your blog.
  * Version: 1.0
  * Author: Jinesh, Senior Software Engineer
