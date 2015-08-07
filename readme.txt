@@ -1,17 +1,17 @@
 === Timeline Blog ===
 Contributors: offshorent
 Donate link: http://offshorent.com/
-Tags: Blog, Timeline, Timeline Blog, colorfull blog, attractive blog, colorfull category, category listing, tag listing, lags, category
+Tags: Blog, Timeline, Timeline Blog, colorful blog, attractive blog, colorful category, category listing, tag listing, lags, category
 Requires at least: 3.0
 Tested up to: 4.2.3
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Timeline blog is a way of displaying a list of blogs in a chronological, colorfull and more attractive order.
+Timeline blog is a way of displaying a list of blogs in a chronological, colorful and more attractive order.
 == Description ==
 
-Timeline blog is a way of displaying a list of blogs in a chronological, colorfull and attractive order. It is typically a graphic design showing a long bar labelled with date, author avatar and comments count.
+Timeline blog is a way of displaying a list of blogs in a chronological, colorful and attractive order. It is typically a graphic design showing a long bar labelled with date, author avatar and comments count.
 
 == Features ==
 * Admin interface to manage blog appearance
