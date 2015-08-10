@@ -1,9 +1,9 @@
-=== Timeline Blog ===
+=== OS Timeline Blog ===
 Contributors: offshorent
 Donate link: http://offshorent.com/
 Tags: Blog, Timeline, Timeline Blog, colorful blog, attractive blog, colorful category, category listing, tag listing, lags, category
 Requires at least: 3.0
-Tested up to: 4.2.3
+Tested up to: 4.2.4
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Timeline blog is a way of displaying a list of blogs in a chronological, colorful and more attractive order.
 == Description ==
 
-Timeline blog is a way of displaying a list of blogs in a chronological, colorful and attractive order. It is typically a graphic design showing a long bar labeled with date, author avatar and comments count.
+OS Timeline blog is a way of displaying a list of blogs in a chronological, colorful and attractive order. It is typically a graphic design showing a long bar labeled with date, author avatar and comments count.
 
 == Features ==
 * Admin interface to manage blog appearance
@@ -37,7 +37,7 @@ Installation from within backend:
 2. Search for "timeline-blog"
 3. Click "install"
 4. Activate the plugin once it is installed
-5. Click on "Timeline Blog" from the left menu and follow the instructions to complete the installation
+5. Click on "OS Timeline Blog" from the left menu and follow the instructions to complete the installation
 
 FTP upload installation method:
 
