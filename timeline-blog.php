@@ -1,13 +1,13 @@
 ﻿<?php
 /**
- * Plugin Name: Timeline Blog
- * Plugin URI: http://offshorent.com/blog/extensions/timeline-blog
+ * Plugin Name: OS Timeline Blog
+ * Plugin URI: http://offshorent.com/blog/extensions/os-timeline-blog
  * Description: Create a timeline look and feel for your blog.
  * Version: 1.0
  * Author: Jinesh, Senior Software Engineer
  * Author URI: http://www.offshorent.com/
  * Requires at least: 3.0
- * Tested up to: 4.2.3
+ * Tested up to: 4.2.4
 **/
 
 if ( ! defined( 'ABSPATH' ) ) {
