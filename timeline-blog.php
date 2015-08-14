@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Plugin Name: OS Timeline Blog
  * Plugin URI: http://offshorent.com/blog/extensions/os-timeline-blog
@@ -22,6 +22,7 @@ if ( ! class_exists( 'timelineBlog' ) ) :
  * @class timelineBlog
  * @version	1.0
  */
+
 final class timelineBlog {
 	
 	/**
@@ -114,7 +115,7 @@ final class timelineBlog {
 	 
 	public function __construct() {
 		
-        register_activation_hook( __FILE__, array( &$this, 'timeline_install' ) );
+        register_activation_hook( __FILE__, array( $this, 'timeline_install' ) );
 
         // Define constants
         self::timeline_constants();
@@ -123,7 +124,7 @@ final class timelineBlog {
         self::timeline_admin_includes();
 
         // Action Hooks
-        add_action( 'init', array( $this, 'timeline_init' ), 0 );
+        add_action( 'init', array( $this, 'timeline_init' ) );
         add_action( 'admin_init', array( $this, 'timeline_admin_init' ) );
         add_action( 'admin_menu', array( $this, 'timeline_add_admin_menu' ) );
         add_action( 'after_setup_theme', array( $this, 'add_image_sizes' ) );
@@ -131,8 +132,8 @@ final class timelineBlog {
         add_action( 'wp_enqueue_scripts', array( $this, 'timeline_frontend_styles' ) );
 
 		// Filter  Hook
-		add_filter( 'template_include', array( &$this, 'timeline_page_template' ) );
-		add_filter( 'excerpt_more', array( &$this, 'timeline_excerpt_more' ) ) ;       
+		add_filter( 'template_include', array( $this, 'timeline_page_template' ) );
+		add_filter( 'excerpt_more', array( $this, 'timeline_excerpt_more' ) ) ;       
 	}
         
 	/**
@@ -202,7 +203,7 @@ final class timelineBlog {
 	 
 	public function timeline_do_output_buffer() {
             
-        ob_start( array( &$this, "timeline_do_output_buffer_callback" ) );
+        ob_start( array( $this, "timeline_do_output_buffer_callback" ) );
 	}
 
 	/**
@@ -486,7 +487,7 @@ final class timelineBlog {
 		register_setting(
 			'timeline_blog', // Option group
 			'timeline_settings', // Option name
-			array( &$this, 'sanitize' ) // Sanitize
+			array( $this, 'sanitize' ) // Sanitize
 		);
 	}
     
@@ -785,3 +786,4 @@ endif;
  */
  
 return new timelineBlog;
+?>
